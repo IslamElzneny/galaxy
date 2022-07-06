@@ -97,7 +97,75 @@ header {
     font-size: 30px;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:600px) {
+    header{
+        height: 48px;
+        justify-content: space-between;
+        padding: 0 28px;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .fa-customize-bar{
+        display: block;
+        color: #fff;
+        font-size: 28px;
+    }
+    .fa-customize-close{
+        display: block;
+        color: #5e5c5c;
+        font-size: 28px;
+    }
+    .fa-customize-close
+    {
+        float: right;
+        margin-right: 10px;
+    }
+    .header__close{
+        position: absolute;
+        right: 24px;
+        display: block;
+        font-size: 24px;
+        border-radius: 50%;
+    }
+    .header__close:hover{
+        background-color:#00abd5 ;
+    }
+    .nav{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: #fff;
+        color: #eeee;
+        width: 70%;
+        height: 100vh;
+        padding: 24px 0px;
+        z-index: 100;
+        transition: 0.5s;
+    }
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__items{
+        margin: 2rem 0;
+    }
+    .nav__link{
+        color: #000;
+        font-size: 1.1rem;
+    }
+    .nav__list .li-acount , .li-cart{
+        display: inline;
+    }
+    .user_information{
+        display: none;
+    }
+    .show{
+        right: 0;
+    }
+}
+
+@media screen and (max-width:960px) and (min-width:601px) {
 
     header{
         height: 48px;
