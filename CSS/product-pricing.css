@@ -244,6 +244,8 @@
         align-items: center;
     }
     .platform .ourProduct_section{
+        position: relative;
+        top: 0;
         width: 100%;
         margin: 0;
     }
@@ -275,6 +277,8 @@
         align-items: center;
     }
     .platform .ourProduct_section{
+        position: relative;
+        top: 0;
         width: 75%;
         margin: 0;
     }
@@ -305,6 +309,8 @@
         flex-direction: column;
     }
     .platform .ourProduct_section{
+        position: relative;
+        top: 0;
         width: 40%;
         margin: 0;
     }
