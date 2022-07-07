@@ -1,0 +1,362 @@
+/* Start with product pricing section */
+
+.container_section_platform{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container_section_platform .platform{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.platform .ourProduct_section{
+    position: sticky;
+    top: 35px;
+    margin-right: 50px;
+    width: 25%;
+    height: 500px;
+}
+.platform .ourProduct_contain{
+    min-height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+}
+.platform .ourProduct_contain .list_item{
+    margin: 0 20px;
+    padding-bottom: 20px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #7fbbff;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+}
+.platform .ourProduct_contain .list_item .side_link{
+    color: #4c4c4c;
+}
+.platform .ourProduct_contain .list_item:first-child{
+    background: linear-gradient(117deg, rgba(10,39,108,1) 0%, rgba(139,67,190,1) 75%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 15px 0 0;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 0;
+    border: none;
+}
+.platform .ourProduct_contain .list_item:last-child{
+    border: none;
+}
+.platform .platform_contain{
+    width: 60%;
+}
+.chatRoom_image img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.description_about_service .description_contain{
+    margin-top: 100px;
+}
+.description_contain p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    opacity: 0.9;
+}
+.equation_about_service {
+    margin-top: 50px;
+}
+.equation_about_service h2{
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+}
+.equation_about_service>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.equation_about_service>div .icon_service{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #e5eeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.equation_about_service .personal_wealth_planning .icon_service{
+    background: #fde9ee;
+}
+.equation_about_service .protectFromFraud .icon_service{
+    background: #dcf6f4;
+}
+.equation_about_service>div .icon_service .fa-customize-service{
+    color: #057eff;
+}
+.personal_wealth_planning .icon_service .fa-customize-service{
+    color: #ff3456 !important;
+}
+.protectFromFraud .icon_service .fa-customize-service{
+    color: #66e1cf !important;
+}
+.equation_about_service>div .equation_contain{
+    width: 90%;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 20px;
+}
+.equation_about_service>div .equation_contain span{
+    color: #057eff;
+    font-weight: 600;
+}
+.description_about_service .servics{
+    margin-top: 100px;
+}
+.description_about_service .servics .header_service h2{
+    font-family: 'Open Sans', sans-serif;
+    width: 65%;
+    opacity: 0.9;
+    font-size: 34px;
+}
+.description_about_service .servics .service_contain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.service_contain .service{
+    width: 28%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 7px;
+    padding: 0 10px;
+    position: relative;
+}
+.service_contain .basic_plan::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: inherit;
+    z-index: -1;
+    background: linear-gradient(117deg, rgba(173,40,228,1) 0%, rgba(250,47,125,1) 75%);
+}
+.service_contain .service .service_name{
+    color: #020d37;
+    margin-top: 25px;
+}
+.service_contain .service .service_price{
+    font-size: 50px;
+    color: #020d37;
+    margin: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.service_contain .service .limiting_service{
+    color: #d3a1ff;
+    font-size: 12px;
+}
+.service_contain .service a{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background: #0a276c;
+    color: #e3e6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.service_contain .basic_plan a{
+    background: linear-gradient(117deg, rgba(173,40,228,1) 0%, rgba(250,47,125,1) 75%);
+    color: #fff;
+}
+.service_contain .basic_plan .status_service{
+    position: absolute;
+    top: -20px;
+    width: calc(100% + 6px);
+    height: 40px;
+    background: linear-gradient(117deg, rgba(173,40,228,1) 0%, rgba(250,47,125,1) 75%);
+    color: #fff;
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_service .switch{
+    margin: 10px 0;
+    display: flex;
+}
+.header_service .switch span{
+    font-size: 15px;
+    color: #b1b1b1;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 7px;
+}
+.switch input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: linear-gradient(117deg, rgba(173,40,228,1) 0%, rgba(250,47,125,1) 75%);
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgb(0, 0, 0,.2);
+}
+.switch input:checked[type="checkbox"]{
+    background:  linear-gradient(117deg, rgba(157,6,251,1) 0%, rgba(253,2,90,1) 90%);;
+}
+.switch input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgb(0, 0, 0,0.2);
+    transition: 0.5s;
+}
+.switch input:checked[type="checkbox"]::before{
+    left: 20px;
+}
+
+@media screen and (max-width:450px) {
+    .container_section_platform .platform{
+        flex-direction: column;
+        align-items: center;
+    }
+    .platform .ourProduct_section{
+        width: 100%;
+        margin: 0;
+    }
+    .platform .platform_contain{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .chatRoom_image img{
+        width: 95%;
+    }
+    .description_about_service .description_contain{
+        margin-top: 50px;
+    }
+    .description_about_service .servics .header_service h2{
+        width: 100%;
+    }
+    .description_about_service .servics .service_contain{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_contain .service{
+        width: 75%;
+        margin-bottom: 45px;
+    }
+}
+@media screen and (min-width:449px) and (max-width:600px) {
+    .container_section_platform .platform{
+        flex-direction: column;
+        align-items: center;
+    }
+    .platform .ourProduct_section{
+        width: 75%;
+        margin: 0;
+    }
+    .platform .platform_contain{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .chatRoom_image img{
+        width: 95%;
+    }
+    .description_about_service .description_contain{
+        margin-top: 50px;
+    }
+    .description_about_service .servics .header_service h2{
+        width: 100%;
+    }
+    .description_about_service .servics .service_contain{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_contain .service{
+        width: 50%;
+        margin-bottom: 45px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:784px) {
+    .container_section_platform .platform{
+        flex-direction: column;
+    }
+    .platform .ourProduct_section{
+        width: 40%;
+        margin: 0;
+    }
+    .platform .platform_contain{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .chatRoom_image img{
+        width: 60%;
+    }
+    .description_about_service .description_contain{
+        margin-top: 50px;
+    }
+    .description_about_service .servics .header_service h2{
+        width: 65%;
+    }
+    .description_about_service .servics .service_contain{
+        flex-direction: row;
+    }
+    .service_contain .service{
+        width: 30%;
+        margin-bottom: 45px;
+    }
+}
+@media screen and (min-width:783px) and (max-width:900px) {
+    .container_section_platform .platform{
+        width: 96%;
+        justify-content: space-between;
+    }
+    .platform .ourProduct_section{
+        width: 40%;
+        margin: 0;
+    }
+    .platform .platform_contain{
+        width: 55%;
+        margin-top: 50px;
+    }
+    .chatRoom_image img{
+        width: 90%;
+    }
+    .description_about_service .description_contain{
+        margin-top: 50px;
+    }
+    .description_about_service .servics .header_service h2{
+        width: 95%;
+    }
+    .description_about_service .servics .service_contain{
+        flex-direction: row;
+    }
+    .service_contain .service{
+        width: 30%;
+        margin-bottom: 45px;
+    }
+}
+/* End with product pricing section */
