@@ -6,8 +6,8 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 100vh;
     background: #f5f6f9;
+    scroll-behavior:smooth;
 }
 a {
     text-decoration: none;
